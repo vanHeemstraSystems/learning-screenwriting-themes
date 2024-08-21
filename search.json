@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "audio-video-scripts.html",
+    "href": "audio-video-scripts.html",
+    "title": "Audio Video Scripts",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Audio Video Scripts on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "audio-video-scripts.html#find-the-opportunities.",
+    "href": "audio-video-scripts.html#find-the-opportunities.",
+    "title": "Audio Video Scripts",
+    "section": "2. Find the Opportunities.",
+    "text": "2. Find the Opportunities.\nSee Learning Audio Video Scripts\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Notes on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "notes.html#find-the-opportunities.",
+    "href": "notes.html#find-the-opportunities.",
+    "title": "Notes",
+    "section": "2. Find the Opportunities.",
+    "text": "2. Find the Opportunities.\nSee Learning Notes\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+  },
+  {
+    "objectID": "SUMMARY.html",
+    "href": "SUMMARY.html",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Table of contents\n\nLearning Screenwriting - Themes"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "screenplays.html",
+    "href": "screenplays.html",
+    "title": "Screenplays",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Screenplays on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "screenplays.html#find-the-opportunities.",
+    "href": "screenplays.html#find-the-opportunities.",
+    "title": "Screenplays",
+    "section": "2. Find the Opportunities.",
+    "text": "2. Find the Opportunities.\nSee Learning Screenplays\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Screenwriting - Themes",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nimport { renderChart } from \"@trebor/zoomable-voronoi-treemap\"\n\n\n\n\n\n\n\nmd`### Themes`\n\n\n\n\n\n\n\ndata = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/vanHeemstraSystems/learning-screenwriting-themes/main/data/themes.json\"\n  );\n  return d3.hierarchy(flare).sum((d) =&gt; (d.children ? 0 : Math.random()));\n}\n\n\n\n\n\n\n\n__topicsChart = {\n  return renderChart({\n    data,\n    size: { width, height: 400 }\n  });\n}\n\n\n\n\n\n\n\nMaster Screenplays\n\n\nMaster Notes\n\n\nMaster Audio Video Scripts"
+  }
+]
